@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VCMain">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jWS-tL-c09">
+                    <rect key="frame" x="40" y="220" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNL-sH-Ycx">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                            <color key="backgroundColor" red="0.38823529410000002" green="0.70588235290000001" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="hqG-4D-855"/>
+                                <constraint firstAttribute="width" constant="120" id="iMh-PB-Dkn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="오른쪽으로 Add VIew">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="iMh-PB-Dkn"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="onBtnAddHorizonTouch:" destination="-1" eventType="touchUpInside" id="PNY-br-Heq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTc-TS-Qh7">
+                            <rect key="frame" x="0.0" y="78" width="240" height="50"/>
+                            <color key="backgroundColor" red="0.94509803920000002" green="0.95402446549999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="T5y-mP-Atk"/>
+                                <constraint firstAttribute="height" constant="50" id="gUm-uh-afH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="아래로 Add VIew">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="T5y-mP-Atk"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="onBtnAddVerticalTouch:" destination="-1" eventType="touchUpInside" id="Fmb-IP-2D9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="xTc-TS-Qh7" firstAttribute="leading" secondItem="jWS-tL-c09" secondAttribute="leading" id="3VA-Ln-foz"/>
+                        <constraint firstItem="TNL-sH-Ycx" firstAttribute="leading" secondItem="jWS-tL-c09" secondAttribute="leading" id="3W8-le-VcF"/>
+                        <constraint firstAttribute="height" constant="128" id="8VI-q9-Zbt"/>
+                        <constraint firstAttribute="bottom" secondItem="xTc-TS-Qh7" secondAttribute="bottom" id="CDt-xa-pok"/>
+                        <constraint firstItem="TNL-sH-Ycx" firstAttribute="top" secondItem="jWS-tL-c09" secondAttribute="top" id="Ijx-xg-D4O"/>
+                        <constraint firstAttribute="trailing" secondItem="xTc-TS-Qh7" secondAttribute="trailing" id="RLh-OG-4UK"/>
+                        <constraint firstAttribute="trailing" secondItem="TNL-sH-Ycx" secondAttribute="trailing" id="YDQ-eo-TgH"/>
+                        <constraint firstAttribute="width" constant="240" id="rlO-Dw-6rZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jWS-tL-c09" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HEs-55-Pbl"/>
+                <constraint firstItem="jWS-tL-c09" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QiD-D3-O51"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="71" y="307"/>
+        </view>
+    </objects>
+</document>
