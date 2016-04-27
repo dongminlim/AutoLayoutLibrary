@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D3E7051CD0396F00744697 /* ALImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D3E7031CD0396F00744697 /* ALImagePickerController.m */; };
+		B7D3E7061CD0396F00744697 /* ALImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D3E7041CD0396F00744697 /* ALImagePickerController.xib */; };
+		B7D3E70F1CD0459200744697 /* VCAlbumList.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D3E70D1CD0459200744697 /* VCAlbumList.m */; };
+		B7D3E7101CD0459200744697 /* VCAlbumList.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D3E70E1CD0459200744697 /* VCAlbumList.xib */; };
+		B7DFE15C1CCF5450007A46D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE15B1CCF5450007A46D0 /* main.m */; };
+		B7DFE15F1CCF5450007A46D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE15E1CCF5450007A46D0 /* AppDelegate.m */; };
+		B7DFE1621CCF5450007A46D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE1611CCF5450007A46D0 /* ViewController.m */; };
+		B7DFE1671CCF5450007A46D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DFE1661CCF5450007A46D0 /* Assets.xcassets */; };
+		B7DFE18E1CCF598C007A46D0 /* CellAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE1891CCF598C007A46D0 /* CellAlbum.m */; };
+		B7DFE18F1CCF598C007A46D0 /* CellAlbum.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7DFE18A1CCF598C007A46D0 /* CellAlbum.xib */; };
+		B7DFE1901CCF598C007A46D0 /* CellPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE18C1CCF598C007A46D0 /* CellPicture.m */; };
+		B7DFE1911CCF598C007A46D0 /* CellPicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7DFE18D1CCF598C007A46D0 /* CellPicture.xib */; };
+		B7DFE1951CCF5C14007A46D0 /* VCMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE1931CCF5C14007A46D0 /* VCMain.m */; };
+		B7DFE1961CCF5C14007A46D0 /* VCMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7DFE1941CCF5C14007A46D0 /* VCMain.xib */; };
+		B7DFE1991CCF5D94007A46D0 /* AutoAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFE1981CCF5D94007A46D0 /* AutoAsset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7D3E7021CD0396F00744697 /* ALImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALImagePickerController.h; sourceTree = "<group>"; };
+		B7D3E7031CD0396F00744697 /* ALImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALImagePickerController.m; sourceTree = "<group>"; };
+		B7D3E7041CD0396F00744697 /* ALImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALImagePickerController.xib; sourceTree = "<group>"; };
+		B7D3E70C1CD0459200744697 /* VCAlbumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAlbumList.h; sourceTree = "<group>"; };
+		B7D3E70D1CD0459200744697 /* VCAlbumList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAlbumList.m; sourceTree = "<group>"; };
+		B7D3E70E1CD0459200744697 /* VCAlbumList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCAlbumList.xib; sourceTree = "<group>"; };
+		B7DFE1571CCF5450007A46D0 /* AutoLayoutImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DFE15B1CCF5450007A46D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7DFE15D1CCF5450007A46D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7DFE15E1CCF5450007A46D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7DFE1601CCF5450007A46D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7DFE1611CCF5450007A46D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7DFE1661CCF5450007A46D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7DFE16B1CCF5450007A46D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DFE1881CCF598C007A46D0 /* CellAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAlbum.h; sourceTree = "<group>"; };
+		B7DFE1891CCF598C007A46D0 /* CellAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAlbum.m; sourceTree = "<group>"; };
+		B7DFE18A1CCF598C007A46D0 /* CellAlbum.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellAlbum.xib; sourceTree = "<group>"; };
+		B7DFE18B1CCF598C007A46D0 /* CellPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellPicture.h; sourceTree = "<group>"; };
+		B7DFE18C1CCF598C007A46D0 /* CellPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellPicture.m; sourceTree = "<group>"; };
+		B7DFE18D1CCF598C007A46D0 /* CellPicture.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellPicture.xib; sourceTree = "<group>"; };
+		B7DFE1921CCF5C14007A46D0 /* VCMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMain.h; sourceTree = "<group>"; };
+		B7DFE1931CCF5C14007A46D0 /* VCMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMain.m; sourceTree = "<group>"; };
+		B7DFE1941CCF5C14007A46D0 /* VCMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCMain.xib; sourceTree = "<group>"; };
+		B7DFE1971CCF5D94007A46D0 /* AutoAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAsset.h; sourceTree = "<group>"; };
+		B7DFE1981CCF5D94007A46D0 /* AutoAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAsset.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7DFE1541CCF5450007A46D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7DFE14E1CCF5450007A46D0 = {
+			isa = PBXGroup;
+			children = (
+				B7DFE1591CCF5450007A46D0 /* AutoLayoutImagePicker */,
+				B7DFE1581CCF5450007A46D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DFE1581CCF5450007A46D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DFE1571CCF5450007A46D0 /* AutoLayoutImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DFE1591CCF5450007A46D0 /* AutoLayoutImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7DFE1721CCF57F8007A46D0 /* AutoLayoutImagePicker */,
+				B7DFE1921CCF5C14007A46D0 /* VCMain.h */,
+				B7DFE1931CCF5C14007A46D0 /* VCMain.m */,
+				B7DFE1941CCF5C14007A46D0 /* VCMain.xib */,
+				B7DFE15D1CCF5450007A46D0 /* AppDelegate.h */,
+				B7DFE15E1CCF5450007A46D0 /* AppDelegate.m */,
+				B7DFE1601CCF5450007A46D0 /* ViewController.h */,
+				B7DFE1611CCF5450007A46D0 /* ViewController.m */,
+				B7DFE1661CCF5450007A46D0 /* Assets.xcassets */,
+				B7DFE16B1CCF5450007A46D0 /* Info.plist */,
+				B7DFE15A1CCF5450007A46D0 /* Supporting Files */,
+			);
+			path = AutoLayoutImagePicker;
+			sourceTree = "<group>";
+		};
+		B7DFE15A1CCF5450007A46D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7DFE15B1CCF5450007A46D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7DFE1721CCF57F8007A46D0 /* AutoLayoutImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7DFE1731CCF582B007A46D0 /* CellPicker */,
+				B7DFE1971CCF5D94007A46D0 /* AutoAsset.h */,
+				B7DFE1981CCF5D94007A46D0 /* AutoAsset.m */,
+				B7D3E7021CD0396F00744697 /* ALImagePickerController.h */,
+				B7D3E7031CD0396F00744697 /* ALImagePickerController.m */,
+				B7D3E7041CD0396F00744697 /* ALImagePickerController.xib */,
+				B7D3E70C1CD0459200744697 /* VCAlbumList.h */,
+				B7D3E70D1CD0459200744697 /* VCAlbumList.m */,
+				B7D3E70E1CD0459200744697 /* VCAlbumList.xib */,
+			);
+			path = AutoLayoutImagePicker;
+			sourceTree = "<group>";
+		};
+		B7DFE1731CCF582B007A46D0 /* CellPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7DFE1881CCF598C007A46D0 /* CellAlbum.h */,
+				B7DFE1891CCF598C007A46D0 /* CellAlbum.m */,
+				B7DFE18A1CCF598C007A46D0 /* CellAlbum.xib */,
+				B7DFE18B1CCF598C007A46D0 /* CellPicture.h */,
+				B7DFE18C1CCF598C007A46D0 /* CellPicture.m */,
+				B7DFE18D1CCF598C007A46D0 /* CellPicture.xib */,
+			);
+			path = CellPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7DFE1561CCF5450007A46D0 /* AutoLayoutImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DFE16E1CCF5450007A46D0 /* Build configuration list for PBXNativeTarget "AutoLayoutImagePicker" */;
+			buildPhases = (
+				B7DFE1531CCF5450007A46D0 /* Sources */,
+				B7DFE1541CCF5450007A46D0 /* Frameworks */,
+				B7DFE1551CCF5450007A46D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayoutImagePicker;
+			productName = AutoLayoutImagePicker;
+			productReference = B7DFE1571CCF5450007A46D0 /* AutoLayoutImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DFE14F1CCF5450007A46D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dongmin;
+				TargetAttributes = {
+					B7DFE1561CCF5450007A46D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B7DFE1521CCF5450007A46D0 /* Build configuration list for PBXProject "AutoLayoutImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7DFE14E1CCF5450007A46D0;
+			productRefGroup = B7DFE1581CCF5450007A46D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DFE1561CCF5450007A46D0 /* AutoLayoutImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DFE1551CCF5450007A46D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DFE1961CCF5C14007A46D0 /* VCMain.xib in Resources */,
+				B7D3E7061CD0396F00744697 /* ALImagePickerController.xib in Resources */,
+				B7DFE1671CCF5450007A46D0 /* Assets.xcassets in Resources */,
+				B7D3E7101CD0459200744697 /* VCAlbumList.xib in Resources */,
+				B7DFE18F1CCF598C007A46D0 /* CellAlbum.xib in Resources */,
+				B7DFE1911CCF598C007A46D0 /* CellPicture.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7DFE1531CCF5450007A46D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D3E70F1CD0459200744697 /* VCAlbumList.m in Sources */,
+				B7DFE1951CCF5C14007A46D0 /* VCMain.m in Sources */,
+				B7DFE1901CCF598C007A46D0 /* CellPicture.m in Sources */,
+				B7DFE1621CCF5450007A46D0 /* ViewController.m in Sources */,
+				B7DFE15F1CCF5450007A46D0 /* AppDelegate.m in Sources */,
+				B7DFE1991CCF5D94007A46D0 /* AutoAsset.m in Sources */,
+				B7DFE15C1CCF5450007A46D0 /* main.m in Sources */,
+				B7DFE18E1CCF598C007A46D0 /* CellAlbum.m in Sources */,
+				B7D3E7051CD0396F00744697 /* ALImagePickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7DFE16C1CCF5450007A46D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7DFE16D1CCF5450007A46D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7DFE16F1CCF5450007A46D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayoutImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillowpig.AutoLayoutImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7DFE1701CCF5450007A46D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayoutImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillowpig.AutoLayoutImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7DFE1521CCF5450007A46D0 /* Build configuration list for PBXProject "AutoLayoutImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DFE16C1CCF5450007A46D0 /* Debug */,
+				B7DFE16D1CCF5450007A46D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DFE16E1CCF5450007A46D0 /* Build configuration list for PBXNativeTarget "AutoLayoutImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DFE16F1CCF5450007A46D0 /* Debug */,
+				B7DFE1701CCF5450007A46D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7DFE14F1CCF5450007A46D0 /* Project object */;
+}
