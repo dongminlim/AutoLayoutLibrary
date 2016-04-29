@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D6FAFA1CC85952005504B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FAF91CC85952005504B5 /* main.m */; };
+		B7D6FAFD1CC85952005504B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FAFC1CC85952005504B5 /* AppDelegate.m */; };
+		B7D6FB051CC85952005504B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB041CC85952005504B5 /* Assets.xcassets */; };
+		B7D6FB131CC85A9D005504B5 /* VCEmoStic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FB111CC85A9D005504B5 /* VCEmoStic.m */; };
+		B7D6FB141CC85A9D005504B5 /* VCEmoStic.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB121CC85A9D005504B5 /* VCEmoStic.xib */; };
+		B7D6FB181CC85B17005504B5 /* VEmoStic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FB171CC85B17005504B5 /* VEmoStic.m */; };
+		B7D6FB1A1CC85B23005504B5 /* VEmoStic.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB191CC85B23005504B5 /* VEmoStic.xib */; };
+		B7D6FB1E1CC85B41005504B5 /* CellEmoStic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FB1C1CC85B41005504B5 /* CellEmoStic.m */; };
+		B7D6FB1F1CC85B41005504B5 /* CellEmoStic.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB1D1CC85B41005504B5 /* CellEmoStic.xib */; };
+		B7D6FB221CC85D3A005504B5 /* VEmoSticBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FB211CC85D3A005504B5 /* VEmoSticBtn.m */; };
+		B7D6FB241CC85D4B005504B5 /* VEmoSticBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB231CC85D4B005504B5 /* VEmoSticBtn.xib */; };
+		B7D6FB261CC85EB3005504B5 /* EmoSticInfoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7D6FB251CC85EB3005504B5 /* EmoSticInfoList.plist */; };
+		B7E106DF1CD1BEF9004A56D3 /* EmoAStic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E106DE1CD1BEF9004A56D3 /* EmoAStic.m */; };
+		B7E106E31CD1C784004A56D3 /* ViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E106E21CD1C784004A56D3 /* ViewUtil.m */; };
+		B7E106E61CD1D312004A56D3 /* HorizontalCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E106E51CD1D312004A56D3 /* HorizontalCollectionViewLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7D6FAF51CC85952005504B5 /* EmoticonAndSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoticonAndSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D6FAF91CC85952005504B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7D6FAFB1CC85952005504B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7D6FAFC1CC85952005504B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7D6FB041CC85952005504B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D6FB091CC85952005504B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D6FB101CC85A9D005504B5 /* VCEmoStic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEmoStic.h; sourceTree = "<group>"; };
+		B7D6FB111CC85A9D005504B5 /* VCEmoStic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEmoStic.m; sourceTree = "<group>"; };
+		B7D6FB121CC85A9D005504B5 /* VCEmoStic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCEmoStic.xib; sourceTree = "<group>"; };
+		B7D6FB161CC85B17005504B5 /* VEmoStic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEmoStic.h; sourceTree = "<group>"; };
+		B7D6FB171CC85B17005504B5 /* VEmoStic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEmoStic.m; sourceTree = "<group>"; };
+		B7D6FB191CC85B23005504B5 /* VEmoStic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VEmoStic.xib; sourceTree = "<group>"; };
+		B7D6FB1B1CC85B41005504B5 /* CellEmoStic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellEmoStic.h; sourceTree = "<group>"; };
+		B7D6FB1C1CC85B41005504B5 /* CellEmoStic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellEmoStic.m; sourceTree = "<group>"; };
+		B7D6FB1D1CC85B41005504B5 /* CellEmoStic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellEmoStic.xib; sourceTree = "<group>"; };
+		B7D6FB201CC85D3A005504B5 /* VEmoSticBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEmoSticBtn.h; sourceTree = "<group>"; };
+		B7D6FB211CC85D3A005504B5 /* VEmoSticBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEmoSticBtn.m; sourceTree = "<group>"; };
+		B7D6FB231CC85D4B005504B5 /* VEmoSticBtn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VEmoSticBtn.xib; sourceTree = "<group>"; };
+		B7D6FB251CC85EB3005504B5 /* EmoSticInfoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmoSticInfoList.plist; sourceTree = "<group>"; };
+		B7E106DD1CD1BEF9004A56D3 /* EmoAStic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoAStic.h; sourceTree = "<group>"; };
+		B7E106DE1CD1BEF9004A56D3 /* EmoAStic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoAStic.m; sourceTree = "<group>"; };
+		B7E106E11CD1C784004A56D3 /* ViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtil.h; sourceTree = "<group>"; };
+		B7E106E21CD1C784004A56D3 /* ViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtil.m; sourceTree = "<group>"; };
+		B7E106E41CD1D312004A56D3 /* HorizontalCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCollectionViewLayout.h; sourceTree = "<group>"; };
+		B7E106E51CD1D312004A56D3 /* HorizontalCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCollectionViewLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D6FAF21CC85952005504B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D6FAEC1CC85952005504B5 = {
+			isa = PBXGroup;
+			children = (
+				B7D6FAF71CC85952005504B5 /* EmoticonAndSticker */,
+				B7D6FAF61CC85952005504B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D6FAF61CC85952005504B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6FAF51CC85952005504B5 /* EmoticonAndSticker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D6FAF71CC85952005504B5 /* EmoticonAndSticker */ = {
+			isa = PBXGroup;
+			children = (
+				B7E106E01CD1C784004A56D3 /* ViewUtil */,
+				B7D6FB0F1CC85A6E005504B5 /* EmoAStic */,
+				B7D6FAFB1CC85952005504B5 /* AppDelegate.h */,
+				B7D6FAFC1CC85952005504B5 /* AppDelegate.m */,
+				B7D6FB101CC85A9D005504B5 /* VCEmoStic.h */,
+				B7D6FB111CC85A9D005504B5 /* VCEmoStic.m */,
+				B7D6FB121CC85A9D005504B5 /* VCEmoStic.xib */,
+				B7D6FB041CC85952005504B5 /* Assets.xcassets */,
+				B7D6FB091CC85952005504B5 /* Info.plist */,
+				B7D6FAF81CC85952005504B5 /* Supporting Files */,
+			);
+			path = EmoticonAndSticker;
+			sourceTree = "<group>";
+		};
+		B7D6FAF81CC85952005504B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6FAF91CC85952005504B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7D6FB0F1CC85A6E005504B5 /* EmoAStic */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6FB151CC85AD3005504B5 /* vEmoSticItems */,
+				B7D6FB251CC85EB3005504B5 /* EmoSticInfoList.plist */,
+			);
+			path = EmoAStic;
+			sourceTree = "<group>";
+		};
+		B7D6FB151CC85AD3005504B5 /* vEmoSticItems */ = {
+			isa = PBXGroup;
+			children = (
+				B7E106E41CD1D312004A56D3 /* HorizontalCollectionViewLayout.h */,
+				B7E106E51CD1D312004A56D3 /* HorizontalCollectionViewLayout.m */,
+				B7D6FB161CC85B17005504B5 /* VEmoStic.h */,
+				B7D6FB171CC85B17005504B5 /* VEmoStic.m */,
+				B7D6FB191CC85B23005504B5 /* VEmoStic.xib */,
+				B7D6FB1B1CC85B41005504B5 /* CellEmoStic.h */,
+				B7D6FB1C1CC85B41005504B5 /* CellEmoStic.m */,
+				B7D6FB1D1CC85B41005504B5 /* CellEmoStic.xib */,
+				B7D6FB201CC85D3A005504B5 /* VEmoSticBtn.h */,
+				B7D6FB211CC85D3A005504B5 /* VEmoSticBtn.m */,
+				B7D6FB231CC85D4B005504B5 /* VEmoSticBtn.xib */,
+				B7E106DD1CD1BEF9004A56D3 /* EmoAStic.h */,
+				B7E106DE1CD1BEF9004A56D3 /* EmoAStic.m */,
+			);
+			path = vEmoSticItems;
+			sourceTree = "<group>";
+		};
+		B7E106E01CD1C784004A56D3 /* ViewUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B7E106E11CD1C784004A56D3 /* ViewUtil.h */,
+				B7E106E21CD1C784004A56D3 /* ViewUtil.m */,
+			);
+			path = ViewUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D6FAF41CC85952005504B5 /* EmoticonAndSticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D6FB0C1CC85952005504B5 /* Build configuration list for PBXNativeTarget "EmoticonAndSticker" */;
+			buildPhases = (
+				B7D6FAF11CC85952005504B5 /* Sources */,
+				B7D6FAF21CC85952005504B5 /* Frameworks */,
+				B7D6FAF31CC85952005504B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmoticonAndSticker;
+			productName = EmoticonAndSticker;
+			productReference = B7D6FAF51CC85952005504B5 /* EmoticonAndSticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D6FAED1CC85952005504B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dongmin;
+				TargetAttributes = {
+					B7D6FAF41CC85952005504B5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B7D6FAF01CC85952005504B5 /* Build configuration list for PBXProject "EmoticonAndSticker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D6FAEC1CC85952005504B5;
+			productRefGroup = B7D6FAF61CC85952005504B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D6FAF41CC85952005504B5 /* EmoticonAndSticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D6FAF31CC85952005504B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D6FB051CC85952005504B5 /* Assets.xcassets in Resources */,
+				B7D6FB1F1CC85B41005504B5 /* CellEmoStic.xib in Resources */,
+				B7D6FB1A1CC85B23005504B5 /* VEmoStic.xib in Resources */,
+				B7D6FB261CC85EB3005504B5 /* EmoSticInfoList.plist in Resources */,
+				B7D6FB141CC85A9D005504B5 /* VCEmoStic.xib in Resources */,
+				B7D6FB241CC85D4B005504B5 /* VEmoSticBtn.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D6FAF11CC85952005504B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E106DF1CD1BEF9004A56D3 /* EmoAStic.m in Sources */,
+				B7E106E61CD1D312004A56D3 /* HorizontalCollectionViewLayout.m in Sources */,
+				B7D6FB181CC85B17005504B5 /* VEmoStic.m in Sources */,
+				B7D6FB221CC85D3A005504B5 /* VEmoSticBtn.m in Sources */,
+				B7D6FAFD1CC85952005504B5 /* AppDelegate.m in Sources */,
+				B7D6FAFA1CC85952005504B5 /* main.m in Sources */,
+				B7D6FB1E1CC85B41005504B5 /* CellEmoStic.m in Sources */,
+				B7E106E31CD1C784004A56D3 /* ViewUtil.m in Sources */,
+				B7D6FB131CC85A9D005504B5 /* VCEmoStic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7D6FB0A1CC85952005504B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7D6FB0B1CC85952005504B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D6FB0D1CC85952005504B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmoticonAndSticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillowpig.EmoticonAndSticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7D6FB0E1CC85952005504B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmoticonAndSticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pillowpig.EmoticonAndSticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D6FAF01CC85952005504B5 /* Build configuration list for PBXProject "EmoticonAndSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D6FB0A1CC85952005504B5 /* Debug */,
+				B7D6FB0B1CC85952005504B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D6FB0C1CC85952005504B5 /* Build configuration list for PBXNativeTarget "EmoticonAndSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D6FB0D1CC85952005504B5 /* Debug */,
+				B7D6FB0E1CC85952005504B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D6FAED1CC85952005504B5 /* Project object */;
+}

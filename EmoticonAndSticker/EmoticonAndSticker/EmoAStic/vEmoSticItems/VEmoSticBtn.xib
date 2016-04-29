@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VEmoSticBtn">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2kB-tC-mMQ">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz1-EH-vNe">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                            <state key="normal" image="EBani_12_36"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zz1-EH-vNe" secondAttribute="trailing" id="0kQ-8J-Jzy"/>
+                        <constraint firstItem="zz1-EH-vNe" firstAttribute="top" secondItem="2kB-tC-mMQ" secondAttribute="top" id="QAN-qA-wV5"/>
+                        <constraint firstAttribute="bottom" secondItem="zz1-EH-vNe" secondAttribute="bottom" id="bAN-Sx-5X7"/>
+                        <constraint firstItem="zz1-EH-vNe" firstAttribute="leading" secondItem="2kB-tC-mMQ" secondAttribute="leading" id="gc0-MT-FRu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2kB-tC-mMQ" secondAttribute="trailing" id="Af2-ns-T9N"/>
+                <constraint firstItem="2kB-tC-mMQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="n3k-VJ-jUb"/>
+                <constraint firstItem="2kB-tC-mMQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qDm-eW-tjJ"/>
+                <constraint firstAttribute="bottom" secondItem="2kB-tC-mMQ" secondAttribute="bottom" id="vhG-zY-aro"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btItem" destination="zz1-EH-vNe" id="aCq-zi-BF7"/>
+            </connections>
+            <point key="canvasLocation" x="504" y="245"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EBani_12_36" width="36" height="36"/>
+    </resources>
+</document>
